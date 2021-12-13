@@ -1,1 +1,1 @@
-# confluent-outlier-detection
+# mvn-ksql-udf-anomaly-detection

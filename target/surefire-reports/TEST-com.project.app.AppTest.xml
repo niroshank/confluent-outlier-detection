@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.project.app.AppTest" time="0.066" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\niroshanku\Documents\ResearchProject\Docker\project-1\project-1\mvn-ksql-udf-anomaly-detection\target\test-classes;C:\Users\niroshanku\Documents\ResearchProject\Docker\project-1\project-1\mvn-ksql-udf-anomaly-detection\target\classes;C:\Users\niroshanku\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\niroshanku\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\niroshanku\.m2\repository\io\confluent\ksql\ksqldb-udf\6.2.0\ksqldb-udf-6.2.0.jar;C:\Users\niroshanku\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\niroshanku\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\niroshanku\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\niroshanku\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\niroshanku\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\niroshanku\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\niroshanku\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\niroshanku\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\niroshanku\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\niroshanku\.m2\repository\io\confluent\confluent-log4j\1.2.17-cp2\confluent-log4j-1.2.17-cp2.jar;C:\Users\niroshanku\.m2\repository\io\confluent\common-utils\6.2.0\common-utils-6.2.0.jar;C:\Users\niroshanku\.m2\repository\ai\h2o\h2o-genmodel\3.14.0.7\h2o-genmodel-3.14.0.7.jar;C:\Users\niroshanku\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\niroshanku\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\niroshanku\.m2\repository\com\google\protobuf\nano\protobuf-javanano\3.1.0\protobuf-javanano-3.1.0.jar;C:\Users\niroshanku\.m2\repository\ai\h2o\deepwater-backend-api\1.0.4\deepwater-backend-api-1.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\env\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\NIROSH~1\AppData\Local\Temp\surefire1595222307122957370\surefirebooter1295564485484293324.jar C:\Users\niroshanku\AppData\Local\Temp\surefire1595222307122957370 2021-12-07T21-33-08_265-jvmRun1 surefire8414330464105726520tmp surefire_05067821396335318379tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\niroshanku\Documents\ResearchProject\Docker\project-1\project-1\mvn-ksql-udf-anomaly-detection\target\test-classes;C:\Users\niroshanku\Documents\ResearchProject\Docker\project-1\project-1\mvn-ksql-udf-anomaly-detection\target\classes;C:\Users\niroshanku\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\niroshanku\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\niroshanku\.m2\repository\io\confluent\ksql\ksqldb-udf\6.2.0\ksqldb-udf-6.2.0.jar;C:\Users\niroshanku\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\niroshanku\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\niroshanku\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\niroshanku\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\niroshanku\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\niroshanku\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\niroshanku\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\niroshanku\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\niroshanku\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\niroshanku\.m2\repository\io\confluent\confluent-log4j\1.2.17-cp2\confluent-log4j-1.2.17-cp2.jar;C:\Users\niroshanku\.m2\repository\io\confluent\common-utils\6.2.0\common-utils-6.2.0.jar;C:\Users\niroshanku\.m2\repository\ai\h2o\h2o-genmodel\3.14.0.7\h2o-genmodel-3.14.0.7.jar;C:\Users\niroshanku\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\niroshanku\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\niroshanku\.m2\repository\com\google\protobuf\nano\protobuf-javanano\3.1.0\protobuf-javanano-3.1.0.jar;C:\Users\niroshanku\.m2\repository\ai\h2o\deepwater-backend-api\1.0.4\deepwater-backend-api-1.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\niroshanku"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\env\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\niroshanku\Documents\ResearchProject\Docker\project-1\project-1\mvn-ksql-udf-anomaly-detection"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\NIROSH~1\AppData\Local\Temp\surefire1595222307122957370\surefirebooter1295564485484293324.jar"/>
+    <property name="sun.boot.class.path" value="C:\env\jdk1.8.0_291\jre\lib\resources.jar;C:\env\jdk1.8.0_291\jre\lib\rt.jar;C:\env\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\env\jdk1.8.0_291\jre\lib\jsse.jar;C:\env\jdk1.8.0_291\jre\lib\jce.jar;C:\env\jdk1.8.0_291\jre\lib\charsets.jar;C:\env\jdk1.8.0_291\jre\lib\jfr.jar;C:\env\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="niroshanku"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\env\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\niroshanku\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NIROSH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\niroshanku\Documents\ResearchProject\Docker\project-1\project-1\mvn-ksql-udf-anomaly-detection"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\env\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Windows\system32;C:\Windows;C:\env\jdk1.8.0_291\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Users\niroshanku\Downloads\confluent-7.0.0\confluent-7.0.0\bin;C:\Users\niroshanku\Anaconda3;C:\Users\niroshanku\Anaconda3\Library\mingw-w64\bin;C:\Users\niroshanku\Anaconda3\Library\usr\bin;C:\Users\niroshanku\Anaconda3\Library\bin;C:\Users\niroshanku\Anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\niroshanku\AppData\Local\Microsoft\WindowsApps;C:\Users\niroshanku\.dotnet\tools;C:\Users\niroshanku\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\niroshanku\AppData\Roaming\npm;C:\Users\niroshanku\Downloads\apache-maven-3.8.1\bin;C:\env\jdk1.8.0_291\bin;C:\env\spark\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Windows\system32;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\niroshanku\Downloads\confluent-7.0.0\confluent-7.0.0\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\env\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.project.app.AppTest" time="0"/>
+</testsuite>
