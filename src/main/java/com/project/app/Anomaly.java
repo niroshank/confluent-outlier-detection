@@ -21,7 +21,7 @@ public class Anomaly {
 
 	// Name of the generated H2O model
 	private static String modelClassName = "io.confluent.ksql.function.udf.ml"
-			+ ".DeepLearning_model_R_1509973865970_1";
+			+ ".DeepLearning_model_python_1639412149825_1";
 
 	@Udf(description = "apply analytic model to sensor input")
 	public String anomaly(@UdfParameter("sensorinput") String sensorinput) {

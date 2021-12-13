@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class main {
   private static String modelClassName = "io.confluent.ksql.function.udf.ml"
-          + ".DeepLearning_model_python_1639244444917_7";
+          + ".DeepLearning_model_python_1639412149825_1";
 
   public static void main(String[] args) throws Exception {
     hex.genmodel.GenModel rawModel;
